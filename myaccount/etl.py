@@ -6,3 +6,4 @@ cnxn = pyodbc.connect(r"Driver={SQL Server};"
 
 cursor = cnxn.cursor()
 cursor.execute('SELECT * FROM myexpenditure')
+print("completed")
